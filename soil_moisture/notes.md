@@ -1,0 +1,4 @@
+# Starting Point
+
+https://create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-soil-moisture-sensor-ce769b
+
