@@ -1,0 +1,8 @@
+﻿,1,2,3,4,5
+temperature_and_humidity,GND,DATA,VCC,,
+big_sound,AO,GND,VCC,DO,
+tap,S,?,-,,
+light_blocking,-,?,S,,
+small_sound,AO,GND,CC,DO,
+shock,S,?,-,,
+reed_switch,A0,GND,VCC,DO,
