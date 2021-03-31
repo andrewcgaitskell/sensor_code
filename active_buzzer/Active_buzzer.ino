@@ -4,6 +4,8 @@
  *Time:2017.12.12
  *
  ******************************************/
+
+
 int buzzer = 12;//the pin of the active buzzer
 void setup()
 {
