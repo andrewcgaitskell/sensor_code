@@ -1,0 +1,19 @@
+﻿pins top left,,,,
+lcd facing,,,,
+,,,,
+1,VSS,Ground Connection,,
+2,VDD,Positive Supply,,
+3,VO,Contrast Supply,,
+4,RS,Register Selection,HIGH - Data Register,LOW - Instruction Code
+5,RW,,HIGH - Read,LOW - Write
+6,E,Enable Signal,HIGH - Read,LOW - Write
+7,D0,Data Bit 0,,
+8,D1,Data Bit 1,,
+9,D2,Data Bit 2,,
+10,D3,Data Bit 3,,
+11,D4,Data Bit 4,,
+12,D5,Data Bit 5,,
+13,D6,Data Bit 6,,
+14,D7,Data Bit 7,,
+15,A,Supply Voltage for LED Backlight +,,
+16,K,Supply Voltage for LED Backlight -,,
