@@ -1,32 +1,19 @@
-int Led=13;
-int ledPin=12; 
-int buttonpin=7;
-int sensorPin = A0; 
+int ledPin=2;
+int sensorPin = 35; 
 int sensorValue = 0; 
 int val;
 void setup()
 {
-Serial.begin(9600);
-pinMode(Led,OUTPUT); 
-pinMode(ledPin, OUTPUT); 
-pinMode(buttonpin,INPUT);
+Serial.begin(115200);
+pinMode(ledPin,OUTPUT); 
+pinMode(sensorPin,INPUT);
 }
 void loop()
 {
 sensorValue = analogRead(sensorPin); 
-digitalWrite(ledPin, HIGH);
-delay(sensorValue);
-digitalWrite(ledPin, LOW);
-delay(sensorValue); 
+//digitalWrite(ledPin, HIGH);
+//delay(10);
+//digitalWrite(ledPin, LOW);
+//delay(sensorValue); 
 Serial.println(sensorValue, DEC); 
-val=digitalRead(buttonpin);
-if(val==HIGH)
-{
-digitalWrite(Led,HIGH);
 }
-else
-{
-digitalWrite(Led,LOW);
-}
-}
-
